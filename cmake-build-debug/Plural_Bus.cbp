@@ -101,6 +101,12 @@
 		<Unit filename="/Users/reidaruss/Desktop/PluralB/Plural-Bus/Game.h">
 			<Option target="Plural_Bus"/>
 		</Unit>
+		<Unit filename="/Users/reidaruss/Desktop/PluralB/Plural-Bus/Player.cpp">
+			<Option target="Plural_Bus"/>
+		</Unit>
+		<Unit filename="/Users/reidaruss/Desktop/PluralB/Plural-Bus/Player.h">
+			<Option target="Plural_Bus"/>
+		</Unit>
 		<Unit filename="/Users/reidaruss/Desktop/PluralB/Plural-Bus/main.cpp">
 			<Option target="Plural_Bus"/>
 		</Unit>

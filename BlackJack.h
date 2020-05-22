@@ -8,6 +8,7 @@
 #include "Game.h"
 #include "Deck.h"
 #include "Card.h"
+#include "Player.h"
 
 class BlackJack : public Game{
 private:
@@ -25,6 +26,10 @@ public:
     void deal();
     void prompt_user();
     void display_state();
+
+    void run(std::vector<Player> players);
+
+    int check_value(std::vector<Card> v);
 
 };
 

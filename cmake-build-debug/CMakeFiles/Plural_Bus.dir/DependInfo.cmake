@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/reidaruss/Desktop/PluralB/Plural-Bus/BlackJack.cpp" "/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/CMakeFiles/Plural_Bus.dir/BlackJack.cpp.o"
   "/Users/reidaruss/Desktop/PluralB/Plural-Bus/Card.cpp" "/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/CMakeFiles/Plural_Bus.dir/Card.cpp.o"
   "/Users/reidaruss/Desktop/PluralB/Plural-Bus/Deck.cpp" "/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/CMakeFiles/Plural_Bus.dir/Deck.cpp.o"
+  "/Users/reidaruss/Desktop/PluralB/Plural-Bus/Player.cpp" "/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/CMakeFiles/Plural_Bus.dir/Player.cpp.o"
   "/Users/reidaruss/Desktop/PluralB/Plural-Bus/main.cpp" "/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/CMakeFiles/Plural_Bus.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
