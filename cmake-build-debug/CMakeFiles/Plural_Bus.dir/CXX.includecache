@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/reidaruss/Desktop/PluralB/Plural-Bus/BlackJack.cpp
+BlackJack.h
+/Users/reidaruss/Desktop/PluralB/Plural-Bus/BlackJack.h
+
+/Users/reidaruss/Desktop/PluralB/Plural-Bus/BlackJack.h
+Game.h
+/Users/reidaruss/Desktop/PluralB/Plural-Bus/Game.h
+Deck.h
+/Users/reidaruss/Desktop/PluralB/Plural-Bus/Deck.h
+Card.h
+/Users/reidaruss/Desktop/PluralB/Plural-Bus/Card.h
+
+/Users/reidaruss/Desktop/PluralB/Plural-Bus/Card.h
+iostream
+-
+
+/Users/reidaruss/Desktop/PluralB/Plural-Bus/Deck.h
+iostream
+-
+vector
+-
+string
+-
+algorithm
+-
+random
+-
+Card.h
+/Users/reidaruss/Desktop/PluralB/Plural-Bus/Card.h
+
+/Users/reidaruss/Desktop/PluralB/Plural-Bus/Game.h
+iostream
+-
+

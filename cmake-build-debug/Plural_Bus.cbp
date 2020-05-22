@@ -4,90 +4,107 @@
 	<Project>
 		<Option title="Plural_Bus"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="msvc8"/>
+		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Reid Russell/Desktop/Plural-Bus/cmake-build-debug"/>
+				<Option working_dir="/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Plural_Bus">
-				<Option output="C:/Users/Reid Russell/Desktop/Plural-Bus/cmake-build-debug/Plural_Bus.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Reid Russell/Desktop/Plural-Bus/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 Plural_Bus"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Plural_Bus/fast">
-				<Option output="C:/Users/Reid Russell/Desktop/Plural-Bus/cmake-build-debug/Plural_Bus.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Reid Russell/Desktop/Plural-Bus/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 Plural_Bus/fast"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Reid Russell/Desktop/Plural-Bus/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Reid Russell/Desktop/Plural-Bus/cmake-build-debug"/>
+				<Option working_dir="/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Reid Russell\Desktop\Plural-Bus\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Plural_Bus">
+				<Option output="/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Plural_Bus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Plural_Bus"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Plural_Bus/fast">
+				<Option output="/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Plural_Bus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Plural_Bus/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/reidaruss/Desktop/PluralB/Plural-Bus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Reid Russell/Desktop/Plural-Bus/main.cpp">
+		<Unit filename="/Users/reidaruss/Desktop/PluralB/Plural-Bus/BlackJack.cpp">
 			<Option target="Plural_Bus"/>
 		</Unit>
-		<Unit filename="C:/Users/Reid Russell/Desktop/Plural-Bus/CMakeLists.txt">
+		<Unit filename="/Users/reidaruss/Desktop/PluralB/Plural-Bus/BlackJack.h">
+			<Option target="Plural_Bus"/>
+		</Unit>
+		<Unit filename="/Users/reidaruss/Desktop/PluralB/Plural-Bus/Card.cpp">
+			<Option target="Plural_Bus"/>
+		</Unit>
+		<Unit filename="/Users/reidaruss/Desktop/PluralB/Plural-Bus/Card.h">
+			<Option target="Plural_Bus"/>
+		</Unit>
+		<Unit filename="/Users/reidaruss/Desktop/PluralB/Plural-Bus/Deck.cpp">
+			<Option target="Plural_Bus"/>
+		</Unit>
+		<Unit filename="/Users/reidaruss/Desktop/PluralB/Plural-Bus/Deck.h">
+			<Option target="Plural_Bus"/>
+		</Unit>
+		<Unit filename="/Users/reidaruss/Desktop/PluralB/Plural-Bus/Game.h">
+			<Option target="Plural_Bus"/>
+		</Unit>
+		<Unit filename="/Users/reidaruss/Desktop/PluralB/Plural-Bus/main.cpp">
+			<Option target="Plural_Bus"/>
+		</Unit>
+		<Unit filename="/Users/reidaruss/Desktop/PluralB/Plural-Bus/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

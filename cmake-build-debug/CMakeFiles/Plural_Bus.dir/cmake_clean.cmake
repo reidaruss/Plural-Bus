@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Plural_Bus.dir/main.cpp.obj"
-  "Plural_Bus.exe"
-  "Plural_Bus.exe.manifest"
-  "Plural_Bus.lib"
+  "CMakeFiles/Plural_Bus.dir/BlackJack.cpp.o"
+  "CMakeFiles/Plural_Bus.dir/Card.cpp.o"
+  "CMakeFiles/Plural_Bus.dir/Deck.cpp.o"
+  "CMakeFiles/Plural_Bus.dir/main.cpp.o"
+  "Plural_Bus"
   "Plural_Bus.pdb"
 )
 

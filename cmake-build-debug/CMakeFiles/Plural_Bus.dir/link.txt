@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Plural_Bus.dir/main.cpp.o CMakeFiles/Plural_Bus.dir/Deck.cpp.o CMakeFiles/Plural_Bus.dir/Card.cpp.o CMakeFiles/Plural_Bus.dir/BlackJack.cpp.o  -o Plural_Bus 
